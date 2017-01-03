@@ -36,7 +36,11 @@ for SSID_TOKEN_PRINT in SSID_TOKENS:
 
 DEVNULL = open(os.devnull, 'wb')
 def do_ring():
-cmd = 'node hue.js'
+    cmd = 'node hue.js'
+    soundproc = subprocess.Popen(cmd.split(), close_fds=True,
+                                 stdin=DEVNULL, stdout=DEVNULL, stderr=DEVNULL)
+
+cmd = 'tcpdump -l -K -q -i DoorbellMonitor -n -s 256'
 proc = subprocess.Popen(cmd.split(), close_fds=True,
                         bufsize=0, stdout=subprocess.PIPE)
 last_played = 0
