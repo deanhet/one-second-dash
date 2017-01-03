@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/deanhet/one-second-dash/issues"
   },
-  "homepage": "https://github.com/deanhet/one-second-dash#readme"
+  "homepage": "https://github.com/deanhet/one-second-dash#readme",
+  "dependencies": {
+    "node-hue-api": "^2.3.0"
+  }
 }
