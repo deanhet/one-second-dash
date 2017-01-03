@@ -1,0 +1,19 @@
+{
+  "name": "one-second-dash",
+  "version": "1.0.0",
+  "description": "One Second Dash is a bit of code to react to Amazon Dash buttons, designed for the Raspberry Pi.",
+  "main": "hue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanhet/one-second-dash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deanhet/one-second-dash/issues"
+  },
+  "homepage": "https://github.com/deanhet/one-second-dash#readme"
+}
