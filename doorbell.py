@@ -57,4 +57,5 @@ while True:
                 last_played = now
                 sys.stdout.write(line)
                 sys.stdout.flush()
-                do_ring()
+                if "[1.0* 2.0* 5.5* 6.0* 11.0* 12.0* 24.0* 9.0 Mbit]" in line:
+                    do_ring()
